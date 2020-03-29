@@ -1,0 +1,217 @@
+!
+! This is an `xmodmap' input file for 
+!   PC 105 key, wide Delete, tall Enter (XFree86; Swedish) keyboards.
+! Automatically generated on Wed Jan  3 14:44:41 2001 by hakon with
+! XKeyCaps 2.45; Copyright (c) 1999 Jamie Zawinski <jwz@jwz.org>.
+! http://www.jwz.org/xkeycaps/
+!
+! This file makes the following changes:
+!
+! The "Esc" key generates NoSymbol
+! The "Print SysRq" key generates NoSymbol
+! The "Scroll Lock" key generates NoSymbol, and has no modifiers
+! The "Pause Break" key generates NoSymbol
+! The "½ §" key generates Escape
+! The "! 1" key generates NoSymbol
+! The "" 2 " key generates ae, AE, and guillemotleft
+! The "# 3 " key generates oslash, Ooblique, and guillemotright
+! The "¤ 4 " key generates Prior
+! The "% 5" key generates Up
+! The "& 6" key generates Down
+! The "/ 7 " key generates Next
+! The "( 8 " key generates Home
+! The ") 9 " key generates Left
+! The "= 0 " key generates Right
+! The "? + " key generates End
+! The "` ´" key generates aring, Aring, and plusminus
+! The "Backspace" key generates NoSymbol
+! The "Home" key generates NoSymbol
+! The "Page Up" key generates NoSymbol
+! The "÷" key generates NoSymbol
+! The "×" key generates NoSymbol
+! The "-" key generates NoSymbol
+! The "Tab" key generates NoSymbol
+! The "Q" key generates numbersign, bar, and ampersand
+! The "W" key generates BackSpace
+! The "E" key generates q, Q, and braceleft
+! The "R" key generates l, L, and braceright
+! The "T" key generates comma, question, and bracketleft
+! The "Y" key generates p, P, and bracketright
+! The "U" key generates Delete
+! The "I" key generates f, F, and underscore
+! The "O" key generates u, U, and less
+! The "P" key generates d, D, and greater
+! The "Å" key generates k, K, and dollar
+! The "^ ¨ " key generates Return
+! The "Enter" key generates Tab, ISO_Left_Tab, and Escape
+! The "End" key generates NoSymbol
+! The "Page Down" key generates NoSymbol
+! The "7 Home" key generates NoSymbol
+! The "8 UpArrow" key generates NoSymbol
+! The "9 Pg Up" key generates NoSymbol
+! The "+" key generates NoSymbol
+! The "Caps  Lock" key generates NoSymbol, and has no modifiers
+! The "A" key generates apostrophe, grave, and percent
+! The "S" key generates a, A, and semicolon
+! The "D" key generates r, R, and slash
+! The "F" key generates e, E, and minus
+! The "G" key generates n, N, and 0
+! The "H" key generates b, B, and colon
+! The "J" key generates g, G, and backslash
+! The "K" key generates s, S, and 1
+! The "L" key generates i, I, and parenleft
+! The "Ö" key generates t, T, and parenright
+! The "Ä" key generates o, O, and equal
+! The "* '" key generates quotedbl, asciitilde, and asciicircum
+! The "4 LeftArrow" key generates NoSymbol
+! The "5" key generates NoSymbol
+! The "6 RightArrow" key generates NoSymbol
+! The "Shift" key generates NoSymbol, and has no modifiers
+! The "> < " key generates NoSymbol
+! The "Z" key generates z, Z, and 6
+! The "X" key generates w, W, and 7
+! The "C" key generates period, exclam, and 8
+! The "V" key generates h, H, and 9
+! The "B" key generates j, J, and plus
+! The "N" key generates at
+! The "M" key generates v, V, and asterisk
+! The "; ," key generates c, C, and 2
+! The ": ." key generates y, Y, and 3
+! The "_ -" key generates m, M, and 4
+! The "Shift" key generates x, X, and 5, and has no modifiers
+! The "UpArrow" key generates NoSymbol
+! The "1 End" key generates NoSymbol
+! The "2 DownArrow" key generates NoSymbol
+! The "3 Pg Dn" key generates NoSymbol
+! The "Enter" key generates NoSymbol
+! The "%%" key generates Alt_L and Meta_L, and the Mod1 modifier
+! The "Alt" key generates NoSymbol, and has no modifiers
+! The "%%" key generates NoSymbol
+! The "##" key generates NoSymbol
+! The "Ctrl" key generates Shift_R, and the Shift modifier
+! The "LeftArrow" key generates NoSymbol
+! The "DownArrow" key generates NoSymbol
+! The "RightArrow" key generates NoSymbol
+! The "0 Ins" key generates NoSymbol
+! The ", Del" key generates NoSymbol
+
+keycode 0x09 =  NoSymbol
+keycode 0x43 =  F1
+keycode 0x44 =  F2
+keycode 0x45 =  F3
+keycode 0x46 =  F4
+keycode 0x47 =  F5
+keycode 0x48 =  F6
+keycode 0x49 =  F7
+keycode 0x4A =  F8
+keycode 0x4B =  F9
+keycode 0x4C =  F10
+keycode 0x5F =  F11
+keycode 0x60 =  F12
+keycode 0x6F =  NoSymbol
+keycode 0x4E =  NoSymbol
+keycode 0x6E =  NoSymbol
+keycode 0x31 =  Escape
+keycode 0x0A =  NoSymbol
+keycode 0x0B =  ae    AE    guillemotleft
+keycode 0x0C =  oslash    Ooblique  guillemotright
+keycode 0x0D =  Prior
+keycode 0x0E =  Up
+keycode 0x0F =  Down
+keycode 0x10 =  Next
+keycode 0x11 =  Home
+keycode 0x12 =  Left
+keycode 0x13 =  Right
+keycode 0x14 =  End
+keycode 0x15 =  aring    Aring    plusminus
+keycode 0x16 =  NoSymbol
+keycode 0x6A =  Insert
+keycode 0x61 =  NoSymbol
+keycode 0x63 =  NoSymbol
+keycode 0x4D =  Num_Lock  Pointer_EnableKeys
+keycode 0x70 =  NoSymbol
+keycode 0x3F =  NoSymbol
+keycode 0x52 =  NoSymbol
+keycode 0x17 =  NoSymbol
+keycode 0x18 =  numbersign  bar    ampersand
+keycode 0x19 =  BackSpace
+keycode 0x1A =  q    Q    braceleft
+keycode 0x1B =  l    L    braceright
+keycode 0x1C =  comma    question  bracketleft
+keycode 0x1D =  p    P    bracketright
+keycode 0x1E =  Delete
+keycode 0x1F =  f    F    underscore
+keycode 0x20 =  u    U    less
+keycode 0x21 =  d    D    greater
+keycode 0x22 =  k    K    dollar
+keycode 0x23 =  Return
+keycode 0x24 =  Tab    ISO_Left_Tab  Escape
+keycode 0x6B =  Delete
+keycode 0x67 =  NoSymbol
+keycode 0x69 =  NoSymbol
+keycode 0x4F =  NoSymbol
+keycode 0x50 =  NoSymbol
+keycode 0x51 =  NoSymbol
+keycode 0x56 =  NoSymbol
+keycode 0x42 =  NoSymbol
+keycode 0x26 =  apostrophe  grave    percent
+keycode 0x27 =  a    A    semicolon
+keycode 0x28 =  r    R    slash
+keycode 0x29 =  e    E    minus
+keycode 0x2A =  n    N    0
+keycode 0x2B =  b    B    colon
+keycode 0x2C =  g    G    backslash
+keycode 0x2D =  s    S    1
+keycode 0x2E =  i    I    parenleft
+keycode 0x2F =  t    T    parenright
+keycode 0x30 =  o    O    equal
+keycode 0x33 =  quotedbl  asciitilde  asciicircum
+keycode 0x53 =  NoSymbol
+keycode 0x54 =  NoSymbol
+keycode 0x55 =  NoSymbol
+keycode 0x32 =  NoSymbol
+keycode 0x5E =  NoSymbol
+keycode 0x34 =  z    Z    6
+keycode 0x35 =  w    W    7
+keycode 0x36 =  period    exclam    8
+keycode 0x37 =  h    H    9
+keycode 0x38 =  j    J    plus
+keycode 0x39 =  at
+keycode 0x3A =  v    V    asterisk
+keycode 0x3B =  c    C    2
+keycode 0x3C =  y    Y    3
+keycode 0x3D =  m    M    4
+keycode 0x3E =  x    X    5
+keycode 0x62 =  NoSymbol
+keycode 0x57 =  NoSymbol
+keycode 0x58 =  NoSymbol
+keycode 0x59 =  NoSymbol
+keycode 0x6C =  NoSymbol
+keycode 0x25 =  Control_L
+keycode 0x73 =  Alt_L    Meta_L
+keycode 0x40 =  NoSymbol
+keycode 0x41 =  space
+keycode 0x71 =  Mode_switch
+keycode 0x74 =  NoSymbol
+keycode 0x75 =  NoSymbol
+keycode 0x6D =  Shift_R
+keycode 0x64 =  NoSymbol
+keycode 0x68 =  NoSymbol
+keycode 0x66 =  NoSymbol
+keycode 0x5A =  NoSymbol
+keycode 0x5B =  NoSymbol
+
+clear Shift
+clear Lock
+clear Control
+clear Mod1
+clear Mod2
+clear Mod3
+clear Mod4
+clear Mod5
+
+add    Shift   = Shift_R
+add    Control = Control_L
+add    Mod1    = Alt_L
+add    Mod2    = Num_Lock
+add    Mod3    = Mode_switch

@@ -1,0 +1,67 @@
+xkb_symbols "arensito" {
+
+    name[Group1]= "Arensito v1 (ANSI101)";
+    // Arensito v1 was designed against an ISO102 keyboard. Several features of this layout 
+    // cannot be faithfully recreated on an ANSI101, which lacks AltGr as well as two 
+    // keys in the home and bottom rows.
+    // The navigation mappings on the top row are removed, as is the AltGr-mapped symbols
+    // and numbers. Instead, the top row is based on that of Programmer's Dvorak.
+    key <TLDE> {[   Escape  ]};
+    key <AE01> {[   percent, 9  ]};
+    key <AE02> {[   dollar,  7   ]};
+    key <AE03> {[   braceleft, 5   ]};
+    key <AE04> {[   bracketleft,   3   ]};
+    key <AE05> {[   parenleft,   1   ]};
+    key <AE06> {[   equal, plus  ]};
+    key <AE07> {[   asterisk,   0   ]};
+    key <AE08> {[   parenright, 2   ]};
+    key <AE09> {[   bracketright, 4   ]};
+    key <AE10> {[   braceright,   6   ]};
+    key <AE11> {[   exclam, 8  ]};
+    key <AE12> {[   numbersign, grave   ]};
+
+    // Additionally, the home and upper rows' keys are all shifted one to leftward. The # is back on
+    // the top row, apostrophe is on capslock. @ is on the QWERTY ]} key and all keys to its right
+    // are shifted leftwark, turning RShift back into RShift. Backspace is in it's original position,
+    // with minus moving to that key. Return is also in its original position, and backslash/bar are
+    // in their original positions. Since tilde and grave are on row E, their positions with quote and 
+    // apostrophe, respectively, are filled with greater and lesser. 
+    key <AD01> {[   minus, underscore   ]};
+    key <AD02> {[   q,  Q   ]};
+    key <AD03> {[   l,  L   ]};
+    key <AD04> {[   comma,  question    ]};
+    key <AD05> {[   p,  P   ]};
+    key <AD06> {[   slash,  bar  ]};
+    key <AD07> {[   f,  F   ]};
+    key <AD08> {[   u,  U   ]};
+    key <AD09> {[   d,  D   ]};
+    key <AD10> {[   k,  K   ]};
+    key <AD11> {[   semicolon,  colon   ]}; // [{
+    key <AD12> {[   ampersand, asciicircum  ]}; // ]}
+    key <BKSL> {[   backslash,  grave   ]};
+
+    key <CAPS> {[   apostrophe, lesser   ]};
+    key <AC01> {[   a,  A   ]};
+    key <AC02> {[   r,  R   ]};
+    key <AC03> {[   e,  E   ]};
+    key <AC04> {[   n,  N   ]};
+    key <AC05> {[   b,  B   ]};
+    key <AC06> {[   g,  G   ]};
+    key <AC07> {[   s,  S   ]};
+    key <AC08> {[   i,  I   ]};
+    key <AC09> {[   t,  T   ]};
+    key <AC10> {[   o,  O   ]};
+    key <AC11> {[   quotedbl,   greater      ]};
+
+    key <AB01> {[   z,  Z ]};
+    key <AB02> {[   w,    W ]};
+    key <AB03> {[   period, asciitilde ]};
+    key <AB04> {[   h,  H ]};
+    key <AB05> {[   j,  J ]};
+    key <AB06> {[   v,  V ]};
+    key <AB07> {[   c,  C ]};   
+    key <AB08> {[   y,  Y ]};
+    key <AB09> {[   m,  M ]};
+    key <AB10> {[   x,  X ]};
+
+};
