@@ -37,11 +37,13 @@ V and D are also swapped to eliminate same finger home row jumps in  words like 
 likely change as the "ds" digraph is annoyingly common.
 
 Additionally, the right top row of the kinesis implementation has (redundant) enclosure symbols to 
-facilitate coding.
+facilitate coding. AltGr is replaced by the Advatage 2's keypad-shift key, and a couple letters I 
+wanted in the top layer use up the extra keys. (Really, this layout demands a keyboard like the 
+Advantage2, Dactyl Manuform, or, at a minimum, Ergodox.)
 
-In the ANSI 101 implementation, the lack of an AltGr key prompted the addition of a top row based on
-the Programmer's Dvorak layout, with enclosure characters and $ rearranged for the benefit of shell 
-(and incidentally Perl) programmers.
+In the ANSI 101 implementation, the lack of the AltGr key (standard on ISO 104) and my reliance on having
+a right_alt key prompted the addition of atop row based on the Programmer's Dvorak layout, with enclosure 
+characters and $ rearranged for the benefit of shell (and incidentally Perl) programmers.
 
 ![Kinesis Implementation](/kinesis/kinesis-arensito.png)
 
