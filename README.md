@@ -38,3 +38,11 @@ likely change as the "ds" digraph is annoyingly common.
 
 Additionally, the right top row of the kinesis implementation has (redundant) enclosure symbols to 
 facilitate coding.
+
+In the ANSI 101 implementation, the lack of an AltGr key prompted the addition of a top row based on
+the Programmer's Dvorak layout, with enclosure characters and $ rearranged for the benefit of shell 
+(and incidentally Perl) programmers.
+
+![Kinesis Implementation](/kinesis/kinesis-arensito.png)
+
+![ANSI Implementation](/ansi/ansi_arensito.png)
